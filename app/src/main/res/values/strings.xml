@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MercadoLibre</string>
+    <string name="plese_wait">Espere por favor</string>
+    <string name="menu_search">Buscar</string>
+    <string name="error_unknown">Hubo un error no identificado</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_no_network">No hay conexion a internet</string>
+    <string name="error_no_conection">No hay conexion al servidor</string>
+    <string name="error_empty_list">No hubo resultados</string>
+    <string name="sold_detail_word">vendidos</string>
+    <string name="stock_with_detail">Stock disponible</string>
+    <string name="stock_out_detail">Sin stock</string>
+    <string name="free_shipping">Envío gratis</string>
+</resources>
