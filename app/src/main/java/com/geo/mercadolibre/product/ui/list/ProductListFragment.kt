@@ -79,6 +79,7 @@ class ProductListFragment : BaseFragment() {
 
     private fun setUpView() {
         button_reload.setOnClickListener {
+            resetView()
             viewModel.loadProducts(query)
         }
     }
@@ -142,6 +143,7 @@ class ProductListFragment : BaseFragment() {
 
     fun updateQuery(query: String) {
         this.query = query
+        resetView()
         viewModel.loadProductsSearch(query)
     }
 

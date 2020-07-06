@@ -13,7 +13,7 @@ import io.reactivex.rxkotlin.subscribeBy
 import javax.inject.Inject
 import javax.inject.Named
 
-class GetProductList @Inject constructor(private val productRepositoryImpl: ProductRepositoryImpl, @Named("ioScheduler")private val ioScheduler: Scheduler, private val mainScheduler: Scheduler) {
+class GetProductList @Inject constructor(private val productRepositoryImpl: ProductRepositoryImpl, @Named("ioScheduler") private val ioScheduler: Scheduler,  private val mainScheduler: Scheduler) {
 
     fun buildCase(query: String): Flowable<List<ProductEntity>> =
         productRepositoryImpl.getProductList(query)
